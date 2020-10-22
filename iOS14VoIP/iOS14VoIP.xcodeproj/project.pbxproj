@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9297D44E2541FA4100F8CB2A /* iOS14VoIPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9297D44D2541FA4100F8CB2A /* iOS14VoIPApp.swift */; };
+		9297D4502541FA4100F8CB2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9297D44F2541FA4100F8CB2A /* ContentView.swift */; };
+		9297D4522541FA4300F8CB2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9297D4512541FA4300F8CB2A /* Assets.xcassets */; };
+		9297D4552541FA4300F8CB2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9297D4542541FA4300F8CB2A /* Preview Assets.xcassets */; };
+		9297D4602541FA4300F8CB2A /* iOS14VoIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9297D45F2541FA4300F8CB2A /* iOS14VoIPTests.swift */; };
+		9297D46B2541FA4300F8CB2A /* iOS14VoIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9297D46A2541FA4300F8CB2A /* iOS14VoIPUITests.swift */; };
+		9297D47D2541FB7600F8CB2A /* UserSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9297D47C2541FB7600F8CB2A /* UserSetting.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9297D45C2541FA4300F8CB2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9297D4422541FA4100F8CB2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9297D4492541FA4100F8CB2A;
+			remoteInfo = iOS14VoIP;
+		};
+		9297D4672541FA4300F8CB2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9297D4422541FA4100F8CB2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9297D4492541FA4100F8CB2A;
+			remoteInfo = iOS14VoIP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9297D44A2541FA4100F8CB2A /* iOS14VoIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS14VoIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9297D44D2541FA4100F8CB2A /* iOS14VoIPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS14VoIPApp.swift; sourceTree = "<group>"; };
+		9297D44F2541FA4100F8CB2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9297D4512541FA4300F8CB2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9297D4542541FA4300F8CB2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9297D4562541FA4300F8CB2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9297D45B2541FA4300F8CB2A /* iOS14VoIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS14VoIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9297D45F2541FA4300F8CB2A /* iOS14VoIPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS14VoIPTests.swift; sourceTree = "<group>"; };
+		9297D4612541FA4300F8CB2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9297D4662541FA4300F8CB2A /* iOS14VoIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS14VoIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9297D46A2541FA4300F8CB2A /* iOS14VoIPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS14VoIPUITests.swift; sourceTree = "<group>"; };
+		9297D46C2541FA4300F8CB2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9297D47C2541FB7600F8CB2A /* UserSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSetting.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9297D4472541FA4100F8CB2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9297D4582541FA4300F8CB2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9297D4632541FA4300F8CB2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9297D4412541FA4100F8CB2A = {
+			isa = PBXGroup;
+			children = (
+				9297D44C2541FA4100F8CB2A /* iOS14VoIP */,
+				9297D45E2541FA4300F8CB2A /* iOS14VoIPTests */,
+				9297D4692541FA4300F8CB2A /* iOS14VoIPUITests */,
+				9297D44B2541FA4100F8CB2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9297D44B2541FA4100F8CB2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9297D44A2541FA4100F8CB2A /* iOS14VoIP.app */,
+				9297D45B2541FA4300F8CB2A /* iOS14VoIPTests.xctest */,
+				9297D4662541FA4300F8CB2A /* iOS14VoIPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9297D44C2541FA4100F8CB2A /* iOS14VoIP */ = {
+			isa = PBXGroup;
+			children = (
+				9297D47B2541FB5900F8CB2A /* Common */,
+				9297D44D2541FA4100F8CB2A /* iOS14VoIPApp.swift */,
+				9297D44F2541FA4100F8CB2A /* ContentView.swift */,
+				9297D4512541FA4300F8CB2A /* Assets.xcassets */,
+				9297D4562541FA4300F8CB2A /* Info.plist */,
+				9297D4532541FA4300F8CB2A /* Preview Content */,
+			);
+			path = iOS14VoIP;
+			sourceTree = "<group>";
+		};
+		9297D4532541FA4300F8CB2A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9297D4542541FA4300F8CB2A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9297D45E2541FA4300F8CB2A /* iOS14VoIPTests */ = {
+			isa = PBXGroup;
+			children = (
+				9297D45F2541FA4300F8CB2A /* iOS14VoIPTests.swift */,
+				9297D4612541FA4300F8CB2A /* Info.plist */,
+			);
+			path = iOS14VoIPTests;
+			sourceTree = "<group>";
+		};
+		9297D4692541FA4300F8CB2A /* iOS14VoIPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9297D46A2541FA4300F8CB2A /* iOS14VoIPUITests.swift */,
+				9297D46C2541FA4300F8CB2A /* Info.plist */,
+			);
+			path = iOS14VoIPUITests;
+			sourceTree = "<group>";
+		};
+		9297D47B2541FB5900F8CB2A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9297D47C2541FB7600F8CB2A /* UserSetting.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9297D4492541FA4100F8CB2A /* iOS14VoIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9297D46F2541FA4300F8CB2A /* Build configuration list for PBXNativeTarget "iOS14VoIP" */;
+			buildPhases = (
+				9297D4462541FA4100F8CB2A /* Sources */,
+				9297D4472541FA4100F8CB2A /* Frameworks */,
+				9297D4482541FA4100F8CB2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS14VoIP;
+			productName = iOS14VoIP;
+			productReference = 9297D44A2541FA4100F8CB2A /* iOS14VoIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9297D45A2541FA4300F8CB2A /* iOS14VoIPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9297D4722541FA4300F8CB2A /* Build configuration list for PBXNativeTarget "iOS14VoIPTests" */;
+			buildPhases = (
+				9297D4572541FA4300F8CB2A /* Sources */,
+				9297D4582541FA4300F8CB2A /* Frameworks */,
+				9297D4592541FA4300F8CB2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9297D45D2541FA4300F8CB2A /* PBXTargetDependency */,
+			);
+			name = iOS14VoIPTests;
+			productName = iOS14VoIPTests;
+			productReference = 9297D45B2541FA4300F8CB2A /* iOS14VoIPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9297D4652541FA4300F8CB2A /* iOS14VoIPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9297D4752541FA4300F8CB2A /* Build configuration list for PBXNativeTarget "iOS14VoIPUITests" */;
+			buildPhases = (
+				9297D4622541FA4300F8CB2A /* Sources */,
+				9297D4632541FA4300F8CB2A /* Frameworks */,
+				9297D4642541FA4300F8CB2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9297D4682541FA4300F8CB2A /* PBXTargetDependency */,
+			);
+			name = iOS14VoIPUITests;
+			productName = iOS14VoIPUITests;
+			productReference = 9297D4662541FA4300F8CB2A /* iOS14VoIPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9297D4422541FA4100F8CB2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					9297D4492541FA4100F8CB2A = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					9297D45A2541FA4300F8CB2A = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 9297D4492541FA4100F8CB2A;
+					};
+					9297D4652541FA4300F8CB2A = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 9297D4492541FA4100F8CB2A;
+					};
+				};
+			};
+			buildConfigurationList = 9297D4452541FA4100F8CB2A /* Build configuration list for PBXProject "iOS14VoIP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9297D4412541FA4100F8CB2A;
+			productRefGroup = 9297D44B2541FA4100F8CB2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9297D4492541FA4100F8CB2A /* iOS14VoIP */,
+				9297D45A2541FA4300F8CB2A /* iOS14VoIPTests */,
+				9297D4652541FA4300F8CB2A /* iOS14VoIPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9297D4482541FA4100F8CB2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9297D4552541FA4300F8CB2A /* Preview Assets.xcassets in Resources */,
+				9297D4522541FA4300F8CB2A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9297D4592541FA4300F8CB2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9297D4642541FA4300F8CB2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9297D4462541FA4100F8CB2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9297D47D2541FB7600F8CB2A /* UserSetting.swift in Sources */,
+				9297D4502541FA4100F8CB2A /* ContentView.swift in Sources */,
+				9297D44E2541FA4100F8CB2A /* iOS14VoIPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9297D4572541FA4300F8CB2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9297D4602541FA4300F8CB2A /* iOS14VoIPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9297D4622541FA4300F8CB2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9297D46B2541FA4300F8CB2A /* iOS14VoIPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9297D45D2541FA4300F8CB2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9297D4492541FA4100F8CB2A /* iOS14VoIP */;
+			targetProxy = 9297D45C2541FA4300F8CB2A /* PBXContainerItemProxy */;
+		};
+		9297D4682541FA4300F8CB2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9297D4492541FA4100F8CB2A /* iOS14VoIP */;
+			targetProxy = 9297D4672541FA4300F8CB2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9297D46D2541FA4300F8CB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9297D46E2541FA4300F8CB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9297D4702541FA4300F8CB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS14VoIP/Preview Content\"";
+				DEVELOPMENT_TEAM = 8S589C7SU7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS14VoIP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9297D4712541FA4300F8CB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS14VoIP/Preview Content\"";
+				DEVELOPMENT_TEAM = 8S589C7SU7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS14VoIP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9297D4732541FA4300F8CB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S589C7SU7;
+				INFOPLIST_FILE = iOS14VoIPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testSwiftUi.iOS14VoIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS14VoIP.app/iOS14VoIP";
+			};
+			name = Debug;
+		};
+		9297D4742541FA4300F8CB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S589C7SU7;
+				INFOPLIST_FILE = iOS14VoIPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testSwiftUi.iOS14VoIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS14VoIP.app/iOS14VoIP";
+			};
+			name = Release;
+		};
+		9297D4762541FA4300F8CB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S589C7SU7;
+				INFOPLIST_FILE = iOS14VoIPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testSwiftUi.iOS14VoIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOS14VoIP;
+			};
+			name = Debug;
+		};
+		9297D4772541FA4300F8CB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S589C7SU7;
+				INFOPLIST_FILE = iOS14VoIPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testSwiftUi.iOS14VoIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOS14VoIP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9297D4452541FA4100F8CB2A /* Build configuration list for PBXProject "iOS14VoIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9297D46D2541FA4300F8CB2A /* Debug */,
+				9297D46E2541FA4300F8CB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9297D46F2541FA4300F8CB2A /* Build configuration list for PBXNativeTarget "iOS14VoIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9297D4702541FA4300F8CB2A /* Debug */,
+				9297D4712541FA4300F8CB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9297D4722541FA4300F8CB2A /* Build configuration list for PBXNativeTarget "iOS14VoIPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9297D4732541FA4300F8CB2A /* Debug */,
+				9297D4742541FA4300F8CB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9297D4752541FA4300F8CB2A /* Build configuration list for PBXNativeTarget "iOS14VoIPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9297D4762541FA4300F8CB2A /* Debug */,
+				9297D4772541FA4300F8CB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9297D4422541FA4100F8CB2A /* Project object */;
+}
